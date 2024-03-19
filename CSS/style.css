@@ -28,6 +28,7 @@
     background-position: right;
     background-repeat: no-repeat;
     height: 30vh;
+    width: 100%;
 }
 .section2 {
     display: flex;
@@ -35,19 +36,51 @@
     border: solid 3px red; 
     background: blue;
     height: 50vh;
+    width: 100%;
+    
     
 }
 .porque {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .beneficios{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
+}
+
+/*.articulo {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+
+
+} */
+
+.imagen-articulo {
+
+   height: 5px; 
+    
+
 }
 .footer {
+    display: flex;
+    flex-direction: row;
     border: solid 3px red; 
     background: blue;
     height: 200px;
+    justify-content: space-between;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40%;
 }
