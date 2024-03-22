@@ -1,5 +1,5 @@
 * {
-    font-family: roboto;
+    font-family: roboto sans-serif;
 }
 
 .header {
@@ -35,13 +35,9 @@
 .section1 {
     display: flex;
     flex-direction: column;
-    /* border: solid 3px red; */
-   /* background-image: url(../CSS/imagenes/premium_dancer.png); */
-   /* background: blue; */
     background-color: lightskyblue;
     background-position: right;
     background-repeat: no-repeat;
-    height: 50vh;
     width: 100%;
     gap: 20px;
     padding: 10px;
@@ -59,44 +55,57 @@
     border: solid 3px red; 
     background-color: white;
     width: 100%; 
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+
 }
 .porque {
-    display: flex;
     width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
 }
 .beneficios{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
+    gap: 40px;
 
 }
-/*
+
 .articulo {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+      
+} 
+
+.texto-articulo {
+    display: flex;
     flex-direction: column;
-    width: 100px;
-    height: 100px;
-} */
+}
 
 .imagen-articulo {
-   height: 30px; 
+   height: 40px; 
    
 }
 
 .footer {
     display: flex;
-    height: 20vh;
     border: solid 3px red; 
     background-color: black;
     color: white;
     justify-content: space-between;
-    align-items: flex-end;
-    font-size: 10px;
+    font-size: 5px;
     width: 100%;
     padding: 0.5px;
     z-index: 999;
+    min-height: 100px;
+    align-items: center;
 }
 
 .footer1 {
@@ -106,7 +115,15 @@
     width: 40%;
 }
 
+.footer-link {
+ display: flex; 
+ flex-direction: column;
+ flex-wrap: nowrap;
+
+}
+
 .footer2 {}
+
 .españa {
     height: 15px;
 }
