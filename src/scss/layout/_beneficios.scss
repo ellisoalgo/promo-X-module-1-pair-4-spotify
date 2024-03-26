@@ -1,0 +1,19 @@
+.section2 {
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
+
+    &porque {
+     
+        grid-column: span 2;
+
+
+    }
+
+    &beneficios{
+
+        grid-column: span 2;
+    
+    }
+}
