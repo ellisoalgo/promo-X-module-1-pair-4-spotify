@@ -62,12 +62,15 @@
 }
 
 .section2 {
-    display: flex;
-    flex-direction: column;
-    border: solid 3px red; 
-    background-color: white;
-    width: 100%; 
+    // display: flex;
+    // flex-direction: column;
+    // border: solid 3px red; 
+    // background-color: white;
+    // width: 100%; 
+    
 }
+@import "layout/beneficios";
+
 .porque {
     display: flex;
     width: 100%;
